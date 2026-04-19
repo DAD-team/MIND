@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingTop="16dp"
+    android:paddingBottom="8dp"
+    android:paddingHorizontal="4dp">
+
+    <!-- Day icon -->
+    <ImageView
+        android:id="@+id/ivDayIcon"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@null"
+        android:scaleType="fitCenter" />
+
+    <!-- Day name -->
+    <TextView
+        android:id="@+id/tvDayName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/nunito"
+        android:textColor="@color/text_primary"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Class count -->
+    <TextView
+        android:id="@+id/tvClassCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito"
+        android:textColor="@color/text_secondary"
+        android:textSize="12sp" />
+</LinearLayout>

@@ -1,0 +1,23 @@
+{
+    "name": "MIND.Session",
+    "rootNamespace": "MIND.Session",
+    "references": [
+        "MIND.Core",
+        "MIND.Auth",
+        "MIND.Speech",
+        "MIND.AI",
+        "MIND.NPC",
+        "MIND.Exercises",
+        "MIND.Environment",
+        "MIND.UI"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

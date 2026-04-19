@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Layer 0: Background image -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_login" />
+
+    <!-- Layer 1: Bottom Decoration -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+
+        <!-- Landscape background (drawn first = behind) -->
+        <ImageView
+            android:id="@+id/imgLandscape"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_gravity="bottom"
+            android:contentDescription="@null"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_landscape" />
+
+        <!-- Characters row (drawn second = in front) -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="65dp"
+            android:orientation="horizontal"
+            android:gravity="bottom"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:paddingHorizontal="32dp">
+
+            <!-- Sun - left -->
+            <ImageView
+                android:id="@+id/imgSun"
+                android:layout_width="@dimen/char_sun_size"
+                android:layout_height="@dimen/char_sun_size"
+                android:layout_gravity="bottom"
+                android:contentDescription="@null"
+                android:src="@drawable/char_sun" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <!-- Cloud + Star - center -->
+            <ImageView
+                android:id="@+id/imgCloudStar"
+                android:layout_width="@dimen/char_cloud_star_size"
+                android:layout_height="@dimen/char_cloud_star_size"
+                android:layout_gravity="bottom"
+                android:contentDescription="@null"
+                android:src="@drawable/char_cloud_star" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <!-- Meditation - right -->
+            <ImageView
+                android:id="@+id/imgMeditation"
+                android:layout_width="@dimen/char_meditation_size"
+                android:layout_height="@dimen/char_meditation_size"
+                android:layout_gravity="bottom"
+                android:contentDescription="@null"
+                android:src="@drawable/char_meditation" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <!-- Layer 2: Form content (on top) -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:overScrollMode="never">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingHorizontal="@dimen/horizontal_margin"
+            android:paddingTop="56dp"
+            android:paddingBottom="220dp">
+
+            <!-- Logo MIND -->
+            <ImageView
+                android:id="@+id/imgLogo"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/logo_mind" />
+
+            <!-- Title -->
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/login_title"
+                android:textColor="@color/text_primary"
+                android:textSize="@dimen/title_size"
+                android:textStyle="bold" />
+
+            <!-- Subtitle -->
+            <TextView
+                android:id="@+id/tvSubtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/login_subtitle"
+                android:textColor="@color/text_secondary"
+                android:textSize="@dimen/subtitle_size" />
+
+            <!-- Email Input -->
+            <EditText
+                android:id="@+id/edtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/input_height"
+                android:layout_marginTop="28dp"
+                android:autofillHints="emailAddress"
+                android:background="@drawable/bg_input_field"
+                android:hint="@string/hint_email"
+                android:imeOptions="actionNext"
+                android:inputType="textEmailAddress"
+                android:paddingHorizontal="24dp"
+                android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_hint"
+                android:textSize="@dimen/body_size" />
+
+            <!-- Password Input -->
+            <EditText
+                android:id="@+id/edtPassword"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/input_height"
+                android:layout_marginTop="@dimen/vertical_spacing"
+                android:autofillHints="password"
+                android:background="@drawable/bg_input_field"
+                android:hint="@string/hint_password"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:paddingHorizontal="24dp"
+                android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_hint"
+                android:textSize="@dimen/body_size" />
+
+            <!-- Login Button -->
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/bg_button_primary"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/btn_login"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <!-- Google Login Button -->
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnGoogle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/bg_button_google"
+                android:drawableStart="@drawable/ic_google"
+                android:drawablePadding="12dp"
+                android:paddingStart="24dp"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:text="@string/btn_google"
+                android:textAllCaps="false"
+                android:textColor="@color/text_primary"
+                android:textSize="16sp" />
+
+            <!-- Register link -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/vertical_spacing"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/no_account"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="@dimen/body_size"
+                    android:paddingRight="10dp"/>
+
+                <TextView
+                    android:id="@+id/tvRegister"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/register_link"
+                    android:textColor="@color/text_link"
+                    android:textSize="@dimen/body_size"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

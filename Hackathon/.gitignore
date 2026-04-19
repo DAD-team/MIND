@@ -1,0 +1,32 @@
+# Environment
+.env
+*.env
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Model file (nặng, download riêng)
+face_landmarker.task
+*.task
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Temp files
+*.tmp
+/tmp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Seed data log
+scripts/.seed_ids.json
+scripts

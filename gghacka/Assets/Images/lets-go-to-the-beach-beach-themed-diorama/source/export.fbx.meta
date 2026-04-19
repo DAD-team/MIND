@@ -1,0 +1,327 @@
+fileFormatVersion: 2
+guid: c436c42357ef86341927b942e392e768
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_BeachUmbrella
+    second: {fileID: 2100000, guid: 4449a857ecf284d42930daf7d600f193, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Cable
+    second: {fileID: 2100000, guid: 0edaf4dc1da1f75408f6f9a53a05ee87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Chalkboard
+    second: {fileID: 2100000, guid: 064ee78b34f2c81468aeb7fcf25c644c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_ChangingCabin
+    second: {fileID: 2100000, guid: bd0dd32964e176d4eaf3ffb2c0b49a8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Coolbox
+    second: {fileID: 2100000, guid: 2fe764e60b36d7b4cb3924d7228f4a47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Decals
+    second: {fileID: 2100000, guid: de8908af3a3c9c04097d48aec70d83ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_DoorsWindowsDetails
+    second: {fileID: 2100000, guid: 0bcce1e8bb15e5c4886ca5f6ea9ddffc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Fillers
+    second: {fileID: 2100000, guid: d7aa7578fbecd4a43b182db6aeb6323b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Fish
+    second: {fileID: 2100000, guid: 508c7b423ff7acc4f8564ae75515d97f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Floor
+    second: {fileID: 2100000, guid: 22144a01f76b57947a4e334f2fd762a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Frames
+    second: {fileID: 2100000, guid: f78a1f90ee16c064bac7e60d4779a4d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_GroundPlaneBottom
+    second: {fileID: 2100000, guid: c237d0f5cf82cfe479258439d5d0807f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Hammock
+    second: {fileID: 2100000, guid: 4198c9f14f9e54346bc02d4ba0762fa0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Light_Blue
+    second: {fileID: 2100000, guid: 4b4e1838b72b1bd47996996d0c0fc246, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Light_Green
+    second: {fileID: 2100000, guid: 6dfc0cd02ab4d274ea0908077aee4b38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Light_Red
+    second: {fileID: 2100000, guid: 0a274261a6c62e74887e89c8a6a18e46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_MountainBike_Variant02
+    second: {fileID: 2100000, guid: c5be8f266865dc94c9185615ee20ca9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Mountainbike
+    second: {fileID: 2100000, guid: b2beb2e565c61324684bba74b4a0f410, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_OutdoorSofa
+    second: {fileID: 2100000, guid: d75ad3d32e9062145bd12d2efb0abf35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_PalmTree
+    second: {fileID: 2100000, guid: bef16332c3b88474585f124edb54264c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_PalmTreeLeaves
+    second: {fileID: 2100000, guid: be6893f287827944ba4554deb9d3d809, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Pier
+    second: {fileID: 2100000, guid: 6b8d869bcb472a74db8878c31682e936, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Pier_Trim
+    second: {fileID: 2100000, guid: 9d37cbd3bd358f343b1af3fea35f7be5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Pillow
+    second: {fileID: 2100000, guid: cc0694c536b09964db69ae51d8e074d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_PlanksWall
+    second: {fileID: 2100000, guid: e61eaaf06ef06a247bda147eb54268c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Plants
+    second: {fileID: 2100000, guid: 6e9cdc7f7c61bae4d9acc4ba1c6c597f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Rims
+    second: {fileID: 2100000, guid: 48ec6ce842e04524eb1709aa936b5b41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Rocks
+    second: {fileID: 2100000, guid: 23401d1f92d8663438fa7c733c0421cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Roof
+    second: {fileID: 2100000, guid: 0df83f15d5932c145978547374ff3348, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_RoofUnderside
+    second: {fileID: 2100000, guid: 7bde89038f509e046b2c8ea5b701bcb8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Ropes
+    second: {fileID: 2100000, guid: be67dcf5eb622f6409f79f73c37d4f5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_SandTop
+    second: {fileID: 2100000, guid: 244a89c3310c1714da9b802e386e6dd4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_SandWater
+    second: {fileID: 2100000, guid: 1b7c4c4e305bba543bc26f20caecee27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_SandWaterEdge
+    second: {fileID: 2100000, guid: e9e8992bbafdcaa44bde13c4e2f88466, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_SeaScooter
+    second: {fileID: 2100000, guid: 1aa16a4e6817496488bec1a574e89a89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Seagull
+    second: {fileID: 2100000, guid: 6d95874838e21864dbffc799a7506b4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Sponge
+    second: {fileID: 2100000, guid: 5aaf7ef86f3c27a4486b863370057bb2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Sunbed
+    second: {fileID: 2100000, guid: 24cc15dfdcc002542a8fca16987d3cb5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Torch
+    second: {fileID: 2100000, guid: c266cca1f893d9d4eadeddcf0906b1b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Towel_Variant01
+    second: {fileID: 2100000, guid: a9e996775b6bc624c9ef77326b1bdbfa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Towel_Variant02
+    second: {fileID: 2100000, guid: 6aaf6836214c9ea499957aaf32749ec4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Walls
+    second: {fileID: 2100000, guid: 3e7c89372b91ccf4ebb3ba2bb47632c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Water
+    second: {fileID: 2100000, guid: 0e515be1e3825b144b2ae165625cc52a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: m_Rocks
+    second: {fileID: 2100000, guid: fdc546b8aed5a244a919088a874ae3c0, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

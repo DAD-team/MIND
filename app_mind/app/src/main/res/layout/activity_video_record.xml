@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <!-- Camera Preview -->
+    <androidx.camera.view.PreviewView
+        android:id="@+id/previewView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Filter Overlay -->
+    <com.example.mind.vr.filter.FaceFilterOverlay
+        android:id="@+id/filterOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Status (nhỏ gọn, chỉ hiện khi cần) -->
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/nunito"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:shadowColor="#80000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="4"
+        android:visibility="gone" />
+
+    <!-- Filter selector -->
+    <HorizontalScrollView
+        android:id="@+id/filterScroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="170dp"
+        android:scrollbars="none"
+        android:clipToPadding="false"
+        android:paddingHorizontal="16dp">
+
+        <LinearLayout
+            android:id="@+id/filterSelector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" />
+    </HorizontalScrollView>
+
+    <!-- Bottom: record button with progress ring -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:paddingBottom="50dp">
+
+        <FrameLayout
+            android:id="@+id/btnRecord"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:focusable="true">
+
+            <!-- Progress ring (viền chạy 5s) -->
+            <com.example.mind.vr.RecordProgressView
+                android:id="@+id/progressRing"
+                android:layout_width="90dp"
+                android:layout_height="90dp" />
+
+            <!-- Record dot (đỏ = sẵn sàng) -->
+            <View
+                android:id="@+id/viewRecordDot"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_gravity="center"
+                android:background="@drawable/bg_record_dot" />
+        </FrameLayout>
+    </FrameLayout>
+
+    <!-- Close button -->
+    <ImageView
+        android:id="@+id/btnClose"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_gravity="top|start"
+        android:layout_marginTop="48dp"
+        android:layout_marginStart="16dp"
+        android:contentDescription="@null"
+        android:padding="8dp"
+        android:scaleType="fitCenter"
+        android:src="@android:drawable/ic_menu_close_clear_cancel" />
+
+    <!-- Switch camera -->
+    <ImageView
+        android:id="@+id/btnSwitchCamera"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_gravity="top|end"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@null"
+        android:padding="8dp"
+        android:scaleType="fitCenter"
+        android:src="@android:drawable/ic_menu_rotate" />
+
+</FrameLayout>

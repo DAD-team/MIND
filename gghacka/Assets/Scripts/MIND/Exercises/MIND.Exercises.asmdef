@@ -1,0 +1,16 @@
+{
+    "name": "MIND.Exercises",
+    "rootNamespace": "MIND.Exercises",
+    "references": [
+        "MIND.Core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

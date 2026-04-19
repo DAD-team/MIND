@@ -1,0 +1,17 @@
+{
+    "name": "MIND.NPC",
+    "rootNamespace": "MIND.NPC",
+    "references": [
+        "MIND.Core",
+        "MIND.Speech"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MIND</string>
+
+    <!-- Login -->
+    <string name="login_title">Đăng nhập</string>
+    <string name="login_subtitle">Mừng cậu quay trở lại!</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Mật khẩu</string>
+    <string name="btn_login">Đăng nhập</string>
+    <string name="btn_google">Đăng nhập với Google</string>
+    <string name="or_divider">hoặc</string>
+    <string name="no_account">Chưa có tài khoản?</string>
+    <string name="register_link"> Đăng ký</string>
+
+    <!-- Register -->
+    <string name="register_title">Chào mừng đến với Mind!</string>
+    <string name="register_subtitle">Cùng nhau chăm sóc tâm trí của bạn nhé.</string>
+    <string name="hint_fullname">Họ và tên</string>
+    <string name="btn_register">Đăng ký</string>
+    <string name="has_account">Bạn đã có tài khoản?</string>
+    <string name="login_link"> Đăng nhập</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title">Chào cậu,\ntớ là Mindy!</string>
+    <string name="onboarding_subtitle">Tớ có thể gọi cậu là gì nhi?</string>
+    <string name="onboarding_name_hint">Nhập tên của bạn</string>
+    <string name="onboarding_btn">Tiếp tục</string>
+
+    <!-- Home -->
+    <string name="home_greeting">Chào buổi sáng, Linh!</string>
+    <string name="mood_card_title">Mood Card</string>
+    <string name="mood_card_subtitle">Hôm nay bạn cảm thấy thế nào?</string>
+    <string name="home_section_title">Hôm nay làm gì nhi :></string>
+    <string name="feature_camera">Chụp ảnh</string>
+    <string name="feature_journal">Viết nhật ký</string>
+    <string name="feature_music">Một chút\nchill chill</string>
+    <string name="feature_checkin_title">Kiểm tra tâm trạng</string>
+    <string name="feature_checkin_subtitle">Chỉ mất 30 giây thôi nè</string>
+
+    <!-- Video Record -->
+    <string name="video_status_ready">Sẵn sàng quay</string>
+    <string name="video_status_recording">Đang quay…</string>
+    <string name="video_status_done">Hoàn tất!</string>
+    <string name="video_hint">Nhấn để bắt đầu quay 5 giây</string>
+    <string name="video_permission_denied">Cần cấp quyền camera và micro để quay video</string>
+
+    <!-- Journal -->
+    <string name="journal_title">Nhật ký của tớ</string>
+    <string name="journal_search_hint">Tìm kiếm kỷ niệm…</string>
+    <string name="journal_empty">Chưa có nhật ký nào. Hãy viết nhật ký đầu tiên!</string>
+
+    <!-- Journal Write -->
+    <string name="journal_write_title_hint">Tiêu đề…</string>
+    <string name="journal_write_content_hint">Hôm nay bạn muốn viết gì…</string>
+    <string name="journal_write_save">Lưu nhật ký</string>
+
+    <!-- Chat -->
+    <string name="chat_title">Trò chuyện cùng Mindy</string>
+    <string name="chat_input_hint">Nhắn cho Mindy…</string>
+
+    <!-- Schedule -->
+    <string name="schedule_title">Lịch học hàng tuần</string>
+    <string name="schedule_empty">Chưa có lịch học nào.\nBấm + để thêm môn học!</string>
+    <string name="schedule_add_title">Thêm môn học</string>
+    <string name="schedule_hint_subject">Tên môn học</string>
+    <string name="schedule_hint_room">Phòng học (tuỳ chọn)</string>
+    <string name="schedule_hint_day">Chọn thứ</string>
+    <string name="schedule_hint_start">Bắt đầu</string>
+    <string name="schedule_hint_end">Kết thúc</string>
+    <string name="schedule_btn_add">Thêm</string>
+    <string name="schedule_btn_save">Lưu lịch học</string>
+    <string name="schedule_btn_update">Cập nhật</string>
+    <string name="schedule_btn_cancel">Huỷ</string>
+    <string name="schedule_edit_title">Chỉnh sửa môn học</string>
+    <string name="schedule_hint_hour">Giờ</string>
+    <string name="schedule_hint_minute">Phút</string>
+    <string name="schedule_all">Tất cả</string>
+
+    <!-- Emotion Check-in -->
+    <string name="checkin_title">Check-in cảm xúc</string>
+    <string name="checkin_subtitle">Bạn đang cảm thấy thế nào?</string>
+    <string name="checkin_mood_happy">Vui vẻ</string>
+    <string name="checkin_mood_sad">Buồn</string>
+    <string name="checkin_mood_stressed">Căng thẳng</string>
+    <string name="checkin_mood_excited">Hào hứng</string>
+    <string name="checkin_mood_neutral">Bình thường</string>
+    <string name="checkin_mood_tired">Mệt mỏi</string>
+    <string name="checkin_video_btn">Quay video 5 giây</string>
+    <string name="checkin_btn_confirm">Ghi nhận</string>
+    <string name="checkin_toast_select">Vui lòng chọn tâm trạng</string>
+    <string name="checkin_toast_done">Đã ghi nhận cảm xúc!</string>
+
+    <!-- Consent -->
+    <string name="consent_title">Bạn muốn Mindy\nhỗ trợ đến mức nào?</string>
+    <string name="consent_subtitle">Bạn có thể thay đổi bất kỳ lúc nào trong Cài đặt</string>
+    <string name="consent_level_1_badge">Mức 1</string>
+    <string name="consent_level_1_title">Cơ bản</string>
+    <string name="consent_level_1_desc">Trả lời bảng hỏi kiểm tra tâm trạng\nTự đánh giá cảm xúc hàng ngày</string>
+    <string name="consent_level_2_badge">Mức 2</string>
+    <string name="consent_level_2_title">Nâng cao</string>
+    <string name="consent_level_2_desc">Tất cả tính năng Mức 1\nQuay video 5 giây để phân tích biểu cảm\n(Video bị xóa ngay, chỉ lưu 4 chỉ số)</string>
+    <string name="consent_level_3_badge">Mức 3</string>
+    <string name="consent_level_3_title">Đầy đủ</string>
+    <string name="consent_level_3_desc">Tất cả tính năng Mức 2\nNhận nhắc nhở chăm sóc sức khỏe chủ động</string>
+    <string name="consent_note">Dù ở mức nào, hệ thống luôn cảnh báo tư vấn viên\nkhi phát hiện dấu hiệu cần hỗ trợ khẩn cấp.</string>
+    <string name="consent_btn">Xác nhận</string>
+    <string name="consent_toast_select">Vui lòng chọn một mức</string>
+
+    <!-- PHQ-2 (Kiểm tra tâm trạng) -->
+    <string name="phq2_title">Kiểm tra tâm trạng</string>
+    <string name="phq2_intro">Trong 2 tuần qua, bạn có thường xuyên bị phiền bởi những vấn đề sau không?</string>
+    <string name="phq2_q1">Ít hứng thú hoặc niềm vui khi làm việc</string>
+    <string name="phq2_q2">Cảm thấy buồn chán, trầm uất, hoặc tuyệt vọng</string>
+    <string name="phq_opt_0">Không bao giờ</string>
+    <string name="phq_opt_1">Vài ngày</string>
+    <string name="phq_opt_2">Hơn nửa số ngày</string>
+    <string name="phq_opt_3">Gần như mỗi ngày</string>
+    <string name="phq2_btn_submit">Gửi</string>
+    <string name="phq_btn_next">Tiếp theo</string>
+    <string name="phq_btn_finish">Hoàn thành</string>
+    <string name="phq_progress">%1$d/%2$d</string>
+    <string name="phq2_toast_incomplete">Vui lòng trả lời cả 2 câu hỏi</string>
+    <string name="phq2_toast_done">Cảm ơn bạn đã chia sẻ!</string>
+
+    <!-- PHQ-9 (Đánh giá sâu) -->
+    <string name="phq9_title">Đánh giá chi tiết</string>
+    <string name="phq9_intro">Để hiểu rõ hơn, mình muốn hỏi thêm vài câu nữa — chỉ khoảng 2 phút.</string>
+    <string name="phq9_q3">Khó ngủ, ngủ không sâu, hoặc ngủ quá nhiều</string>
+    <string name="phq9_q4">Cảm thấy mệt mỏi hoặc ít năng lượng</string>
+    <string name="phq9_q5">Ăn không ngon hoặc ăn quá nhiều</string>
+    <string name="phq9_q6">Cảm thấy tồi tệ về bản thân — hoặc rằng mình là người thất bại</string>
+    <string name="phq9_q7">Khó tập trung vào việc, như đọc sách hoặc xem điện thoại</string>
+    <string name="phq9_q8">Nói hoặc cử động chậm hơn bình thường; hoặc ngược lại — bồn chồn, bất an</string>
+    <string name="phq9_q9">Nghĩ rằng mình sẽ tốt hơn nếu chết đi, hoặc nghĩ đến việc tự làm hại bản thân</string>
+    <string name="phq9_q10">Nếu bạn gặp bất kỳ vấn đề nào ở trên, chúng làm khó khăn cho việc học tập, làm việc, hoặc hòa hợp với mọi người ở mức nào?</string>
+    <string name="phq9_q10_opt_0">Không khó khăn</string>
+    <string name="phq9_q10_opt_1">Hơi khó khăn</string>
+    <string name="phq9_q10_opt_2">Khá khó khăn</string>
+    <string name="phq9_q10_opt_3">Cực kỳ khó khăn</string>
+    <string name="phq9_btn_submit">Hoàn thành</string>
+    <string name="phq9_btn_later">Để sau</string>
+    <string name="phq9_continue_prompt">Bạn có muốn tiếp tục không?</string>
+    <string name="phq9_toast_incomplete">Vui lòng trả lời tất cả câu hỏi</string>
+    <string name="phq9_toast_done">Cảm ơn bạn! Kết quả đã được ghi nhận.</string>
+
+    <!-- PHQ Result -->
+    <string name="result_recommendation_title">Khuyến nghị dành cho bạn</string>
+    <string name="result_emergency_title">Hỗ trợ khẩn cấp</string>
+    <string name="result_emergency_numbers">Tổng đài sức khỏe tâm thần: 1800 599 920\nĐường dây nóng thanh thiếu niên: 1800 599 100\nCấp cứu: 115\nHoặc liên hệ tư vấn viên của trường.</string>
+    <string name="result_somatic">Triệu chứng cơ thể</string>
+    <string name="result_cognitive">Triệu chứng nhận thức</string>
+    <string name="result_btn_home">Về trang chủ</string>
+    <string name="result_change_worse">Xu hướng đáng lưu ý</string>
+    <string name="result_change_better">Tiến triển tích cực</string>
+
+    <!-- PHQ Transition -->
+    <string name="phq_transition_message">Để hiểu rõ hơn, mình muốn hỏi thêm vài câu nữa — chỉ khoảng 2 phút. Bạn có muốn tiếp tục không?</string>
+    <string name="phq_transition_continue">Tiếp tục</string>
+    <string name="phq_transition_later">Để sau</string>
+
+    <!-- PHQ Cooldown -->
+    <string name="phq_cooldown_message">Bạn đã kiểm tra gần đây rồi. Hãy thử lại sau nhé!</string>
+    <string name="phq_paused_message">Kiểm tra tâm trạng đang được tạm dừng. Bạn có thể tiếp tục sau.</string>
+
+    <!-- PHQ Reject (từ chối trả lời) -->
+    <string name="phq_reject_btn">Tôi chưa muốn trả lời</string>
+    <string name="phq_reject_confirm_title">Bạn muốn bỏ qua?</string>
+    <string name="phq_reject_confirm_message">Không sao cả. Bạn có thể trả lời khi sẵn sàng — mình sẽ hỏi lại dịp khác.</string>
+    <string name="phq_reject_confirm_ok">Bỏ qua lần này</string>
+    <string name="phq_reject_confirm_cancel">Tiếp tục trả lời</string>
+    <string name="phq_reject_done">Đã ghi nhận. Hẹn gặp lại bạn!</string>
+    <string name="phq_reject_paused">Mình sẽ tạm ngưng hỏi trong 30 ngày để bạn có không gian riêng.</string>
+
+    <!-- Profile / Settings -->
+    <string name="profile_status">Đang cảm thấy yêu đời :></string>
+    <string name="profile_streak_label">Chuỗi với Mindy</string>
+    <string name="profile_memories_label">Kỷ niệm yêu thương</string>
+    <string name="menu_schedule">Lịch học hàng tuần</string>
+    <string name="menu_edit_profile">Chỉnh sửa hồ sơ</string>
+    <string name="menu_consent">Mức đồng thuận</string>
+    <string name="menu_notification">Thông báo</string>
+    <string name="menu_logout">Đăng xuất</string>
+</resources>

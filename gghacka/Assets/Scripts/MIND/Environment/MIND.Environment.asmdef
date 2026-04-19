@@ -1,0 +1,16 @@
+{
+    "name": "MIND.Environment",
+    "rootNamespace": "MIND.Environment",
+    "references": [
+        "MIND.Core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

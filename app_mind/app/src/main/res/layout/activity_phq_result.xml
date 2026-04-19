@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_main"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <!-- Icon kết quả -->
+        <ImageView
+            android:id="@+id/imgResultIcon"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/icon_40" />
+
+        <!-- Tiêu đề mức độ -->
+        <TextView
+            android:id="@+id/tvResultTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Bạn đang ổn!"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary"
+            android:fontFamily="@font/nunito"
+            android:gravity="center" />
+
+        <!-- Mô tả mức độ -->
+        <TextView
+            android:id="@+id/tvResultDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Kết quả cho thấy bạn đang ở trạng thái tốt."
+            android:textSize="15sp"
+            android:textColor="@color/text_secondary"
+            android:fontFamily="@font/nunito"
+            android:gravity="center"
+            android:lineSpacingExtra="4dp" />
+
+        <!-- Card thay đổi đáng kể (ẩn mặc định) -->
+        <LinearLayout
+            android:id="@+id/cardChange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/card_ngang"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tvChangeTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_primary"
+                android:fontFamily="@font/nunito" />
+
+            <TextView
+                android:id="@+id/tvChangeDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:textSize="13sp"
+                android:textColor="@color/text_secondary"
+                android:fontFamily="@font/nunito" />
+        </LinearLayout>
+
+        <!-- Card khuyến nghị -->
+        <LinearLayout
+            android:id="@+id/cardRecommendation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/card_ngang_teal"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/result_recommendation_title"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_primary"
+                android:fontFamily="@font/nunito" />
+
+            <TextView
+                android:id="@+id/tvRecommendation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textSize="14sp"
+                android:textColor="@color/text_secondary"
+                android:fontFamily="@font/nunito"
+                android:lineSpacingExtra="4dp" />
+        </LinearLayout>
+
+        <!-- Card hotline khẩn cấp (ẩn mặc định, chỉ hiện khi nặng) -->
+        <LinearLayout
+            android:id="@+id/cardEmergency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/card_ngang"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/result_emergency_title"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_primary"
+                android:fontFamily="@font/nunito" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/result_emergency_numbers"
+                android:textSize="14sp"
+                android:textColor="@color/text_secondary"
+                android:fontFamily="@font/nunito"
+                android:lineSpacingExtra="4dp" />
+        </LinearLayout>
+
+        <!-- Điểm phụ (cơ thể / nhận thức) -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/card_ngang"
+                android:padding="12dp"
+                android:layout_marginEnd="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/result_somatic"
+                    android:textSize="12sp"
+                    android:textColor="@color/text_secondary"
+                    android:fontFamily="@font/nunito" />
+
+                <TextView
+                    android:id="@+id/tvSomatic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="0/12"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/teal_primary"
+                    android:fontFamily="@font/nunito" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/card_ngang"
+                android:padding="12dp"
+                android:layout_marginStart="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/result_cognitive"
+                    android:textSize="12sp"
+                    android:textColor="@color/text_secondary"
+                    android:fontFamily="@font/nunito" />
+
+                <TextView
+                    android:id="@+id/tvCognitive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="0/15"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/teal_primary"
+                    android:fontFamily="@font/nunito" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Nút về Home -->
+        <TextView
+            android:id="@+id/btnBackHome"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/bg_btn_primary"
+            android:gravity="center"
+            android:text="@string/result_btn_home"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/nunito" />
+
+    </LinearLayout>
+</ScrollView>

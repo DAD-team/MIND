@@ -1,0 +1,17 @@
+{
+    "name": "MIND.Speech",
+    "rootNamespace": "MIND.Speech",
+    "references": [
+        "MIND.Core",
+        "SherpaOnnx"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

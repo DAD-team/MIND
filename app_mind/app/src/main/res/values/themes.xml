@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Mind" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Legacy color attributes -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent_teal</item>
+
+        <!-- Window -->
+        <item name="android:windowBackground">@color/bg_cream</item>
+        <item name="android:statusBarColor">@color/bg_cream</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!-- Override Material3 dynamic color tokens to prevent wallpaper tinting -->
+        <item name="colorPrimaryContainer">@color/bg_cream</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnPrimaryContainer">@color/text_primary</item>
+        <item name="colorSecondary">@color/accent_teal</item>
+        <item name="colorSecondaryContainer">@color/bg_cream</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorOnSecondaryContainer">@color/text_primary</item>
+        <item name="colorTertiary">@color/accent_teal</item>
+        <item name="colorTertiaryContainer">@color/bg_cream</item>
+        <item name="colorSurface">@color/bg_cream</item>
+        <item name="colorSurfaceVariant">@color/bg_cream</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+        <item name="colorOutline">@color/input_border</item>
+
+        <!-- Text colors -->
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+    </style>
+
+    <style name="Theme.Mind" parent="Base.Theme.Mind" />
+</resources>

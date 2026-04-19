@@ -1,0 +1,27 @@
+{
+    "name": "MIND.Editor",
+    "rootNamespace": "MIND.Editor",
+    "references": [
+        "MIND.Core",
+        "MIND.Auth",
+        "MIND.UI",
+        "MIND.Session",
+        "MIND.AI",
+        "MIND.Speech",
+        "MIND.NPC",
+        "MIND.Exercises",
+        "MIND.Environment",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

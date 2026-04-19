@@ -1,0 +1,17 @@
+{
+    "name": "MIND.AI",
+    "rootNamespace": "MIND.AI",
+    "references": [
+        "MIND.Core",
+        "MIND.Speech"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

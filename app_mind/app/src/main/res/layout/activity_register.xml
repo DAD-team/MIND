@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Layer 1: Background image -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_register" />
+
+    <!-- Layer 2: Bottom decoration characters -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+
+        <!-- Plant - bottom left -->
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_gravity="bottom|start"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="8dp"
+            android:contentDescription="@null"
+            android:src="@drawable/char_plant" />
+
+        <!-- Dino (31) - bottom left -->
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="bottom|start"
+            android:layout_marginStart="80dp"
+            android:layout_marginBottom="4dp"
+            android:contentDescription="@null"
+            android:src="@drawable/char_dino" />
+
+        <!-- Dino2 (32) - bottom right -->
+        <ImageView
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_gravity="bottom|end"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="4dp"
+            android:contentDescription="@null"
+            android:src="@drawable/char_dino2" />
+    </FrameLayout>
+
+    <!-- Layer 3: Form content (on top) -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:overScrollMode="never">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingHorizontal="@dimen/horizontal_margin"
+            android:paddingTop="56dp"
+            android:paddingBottom="180dp">
+
+            <!-- Logo MIND -->
+            <ImageView
+                android:id="@+id/imgLogo"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/logo_mind" />
+
+            <!-- Title -->
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/register_title"
+                android:textColor="@color/text_primary"
+                android:textSize="@dimen/title_size"
+                android:textStyle="bold" />
+
+            <!-- Subtitle -->
+            <TextView
+                android:id="@+id/tvSubtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/register_subtitle"
+                android:textColor="@color/text_secondary"
+                android:textSize="@dimen/subtitle_size" />
+
+            <!-- Full Name Input -->
+            <EditText
+                android:id="@+id/edtFullName"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/input_height"
+                android:layout_marginTop="24dp"
+                android:autofillHints="name"
+                android:background="@drawable/bg_input_register"
+                android:hint="@string/hint_fullname"
+                android:imeOptions="actionNext"
+                android:inputType="textPersonName"
+                android:paddingHorizontal="24dp"
+                android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_hint"
+                android:textSize="@dimen/body_size" />
+
+            <!-- Email Input -->
+            <EditText
+                android:id="@+id/edtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/input_height"
+                android:layout_marginTop="@dimen/vertical_spacing"
+                android:autofillHints="emailAddress"
+                android:background="@drawable/bg_input_register"
+                android:hint="@string/hint_email"
+                android:imeOptions="actionNext"
+                android:inputType="textEmailAddress"
+                android:paddingHorizontal="24dp"
+                android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_hint"
+                android:textSize="@dimen/body_size" />
+
+            <!-- Password Input -->
+            <EditText
+                android:id="@+id/edtPassword"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/input_height"
+                android:layout_marginTop="@dimen/vertical_spacing"
+                android:autofillHints="password"
+                android:background="@drawable/bg_input_register"
+                android:hint="@string/hint_password"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:paddingHorizontal="24dp"
+                android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_hint"
+                android:textSize="@dimen/body_size" />
+
+            <!-- Register Button -->
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnRegister"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/bg_button_register"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/btn_register"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <!-- Login link -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/has_account"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="@dimen/body_size"
+                    android:paddingEnd="10dp" />
+
+                <TextView
+                    android:id="@+id/tvLogin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/login_link"
+                    android:textColor="@color/text_link"
+                    android:textSize="@dimen/body_size"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
